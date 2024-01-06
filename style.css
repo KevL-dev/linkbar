@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.sct-linkbar {
+    text-align: center;
+}
+
+.linkbar ul {
+    list-style: none;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    background: #C0C0C0;
+    border-radius: 10px;
+}
+
+.linkbar li {
+    margin: 0 5px;
+}
+
+.linkbar img{
+    filter: grayscale(100%);
+}
+
+.linkbar img:hover{
+    filter: grayscale(0%);
+    transition: all 0.4s ease-in-out;
+}
